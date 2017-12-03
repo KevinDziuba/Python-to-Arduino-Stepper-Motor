@@ -4,16 +4,10 @@ Goal: Moving a stepper motor based on direction and number of steps by
 communicating arduino with python.
 ---------------------------------------------------------------------------------------------
 
-References:
-Most of the code is a modified version of Robin2's demo found here:
-http://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
----------------------------------------------------------------------------------------------
-
 Files:
 ARDUINOPYTHONMOTOR.py - Python code that contains communication with Arduino and list
 ModifiedMotor_Final.ino - current arduino code that reads list and moves stepper motors accordingly
 FriendSuggestion.ino - Showed friend my problem and he made some changes. STILL NEED TO TEST
----------------------------------------------------------------------------------------------
 
 Background:
 
@@ -37,6 +31,11 @@ For example:
 
 I want the motor to go forward for 300 steps.
 The motor will go in the forward direction but it will never stop, even if the 300 steps have been completed.
+
+-----------------------------------------------------------------------------------------------------------------------
+References:
+Most of the code is a modified version of Robin2's demo found here:
+http://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
 
 
 
