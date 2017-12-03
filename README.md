@@ -1,2 +1,19 @@
 # Python-to-Arduino-Stepper-Motor
-Moving a stepper motor based on direction and number of steps
+Goal: Moving a stepper motor based on direction and number of steps
+
+Most of the code is a modified version of Robin2's demo found here:
+http://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
+
+Python initially has a list that contains ["<Direction, Number of Steps>"]
+where direction is either "Forward", "Left", or "Right" and steps can be any integer value.
+Python communicates these values with Arduino via serial communication and uses
+the direction string to call a motor function that goes straight, turns left or turns right
+and uses the number of steps value to move the stepper motors that many steps.
+
+Problem with current code:
+
+When testing the current code, Arduino recognizes to go the desired direction,
+however, my motor code where the robot x amount of steps is stuck in a loop.
+
+I have attached the python code and the Arduino code. 
+
