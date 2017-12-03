@@ -1,5 +1,6 @@
 # Python-to-Arduino-Stepper-Motor
-Goal: Moving a stepper motor based on direction and number of steps
+Goal: Moving a stepper motor based on direction and number of steps by
+communicating arduino with python.
 
 Most of the code is a modified version of Robin2's demo found here:
 http://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
