@@ -1,9 +1,21 @@
 # Python-to-Arduino-Stepper-Motor
+
 Goal: Moving a stepper motor based on direction and number of steps by
 communicating arduino with python.
+---------------------------------------------------------------------------------------------
 
+References:
 Most of the code is a modified version of Robin2's demo found here:
 http://forum.arduino.cc/index.php?topic=225329.msg1810764#msg1810764
+---------------------------------------------------------------------------------------------
+
+Files:
+ARDUINOPYTHONMOTOR.py - Python code that contains communication with Arduino and list
+ModifiedMotor_Final.ino - current arduino code that reads list and moves stepper motors accordingly
+FriendSuggestion.ino - Showed friend my problem and he made some changes. STILL NEED TO TEST
+---------------------------------------------------------------------------------------------
+
+Background:
 
 Python initially has a list that contains ["<Direction, Number of Steps>"]
 where direction is either "Forward", "Left", or "Right" and steps can be any integer value.
@@ -16,8 +28,6 @@ Sequence of Steps:
 2) Talk to Python kernel so that I can see what data it is receiving
 3) Run motor code based on direction and number of steps
 
----------------------------------------------------------------------------------------------
-
 Problem with current code:
 
 When testing the current code, Arduino recognizes to go the desired direction,
@@ -27,5 +37,6 @@ For example:
 
 I want the motor to go forward for 300 steps.
 The motor will go in the forward direction but it will never stop, even if the 300 steps have been completed.
+
 
 
