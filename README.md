@@ -6,11 +6,9 @@ communicating arduino with python.
 
 Files:
 
-ARDUINOPYTHONMOTOR.py - Python code that contains communication with Arduino and list
-
-ModifiedMotor_Final.ino - current arduino code that reads list and moves stepper motors accordingly
-
-FriendSuggestion.ino - Showed friend my problem and he made some changes. STILL NEED TO TEST
+1) ARDUINOPYTHONMOTOR.py - Python code that contains communication with Arduino and list
+2) ModifiedMotor_Final.ino - current arduino code that reads list and moves stepper motors accordingly
+3) FriendSuggestion.ino - Showed friend my problem and he made some changes. STILL NEED TO TEST
 
 Background:
 
