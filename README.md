@@ -10,10 +10,21 @@ Python communicates these values with Arduino via serial communication and uses
 the direction string to call a motor function that goes straight, turns left or turns right
 and uses the number of steps value to move the stepper motors that many steps.
 
+Sequence of Steps:
+1) Communication of data from python ["<Direction, Number of Steps>"] to Arduino
+2) Talk to Python kernel so that I can see what data it is receiving
+3) Run motor code based on direction and number of steps
+
+---------------------------------------------------------------------------------------------
+
 Problem with current code:
 
 When testing the current code, Arduino recognizes to go the desired direction,
 however, my motor code where the robot x amount of steps is stuck in a loop.
 
-I have attached the python code and the Arduino code. 
+For example:
+
+I want the motor to go forward for 300 steps.
+The motor will go in the forward direction but it will never stop, even if the 300 steps have been completed.
+
 
