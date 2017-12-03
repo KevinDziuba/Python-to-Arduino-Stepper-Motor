@@ -20,7 +20,7 @@ Sequence of Steps:
 Problem with current code:
 
 When testing the current code, Arduino recognizes to go the desired direction,
-however, my motor code where the robot x amount of steps is stuck in a loop.
+however, in my motor code where the robot steps x amount of steps is stuck in a loop.
 
 For example:
 
