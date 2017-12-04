@@ -1,6 +1,6 @@
 # Python-to-Arduino-Stepper-Motor
 
-Goal: Moving a stepper motor by cmmunicating arduino with python.
+Goal: Moving a stepper motor by communicating arduino with python.
 ---------------------------------------------------------------------------------------------
 
 Files:
