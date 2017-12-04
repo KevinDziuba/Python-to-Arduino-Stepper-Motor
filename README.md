@@ -23,16 +23,6 @@ Sequence of Steps:
 2) Talk to Python kernel so that I can see what data it is receiving
 3) Run motor code based on direction and number of steps
 
-Problem with current code:
-
-When testing the current code, Arduino recognizes to go the desired direction,
-however, in my motor code where the robot steps x amount of steps is stuck in a loop.
-
-For example:
-
-I want the motor to go forward for 300 steps.
-The motor will go in the forward direction but it will never stop, even if the 300 steps have been completed.
-
 -----------------------------------------------------------------------------------------------------------------------
 References:
 Most of the code is a modified version of Robin2's demo found here:
