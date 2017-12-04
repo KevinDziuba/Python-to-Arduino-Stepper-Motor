@@ -1,14 +1,12 @@
 # Python-to-Arduino-Stepper-Motor
 
-Goal: Moving a stepper motor based on direction and number of steps by
-communicating arduino with python.
+Goal: Moving a stepper motor by cmmunicating arduino with python.
 ---------------------------------------------------------------------------------------------
 
 Files:
 
-1) ARDUINOPYTHONMOTOR.py - Python code that contains communication with Arduino and list
-2) ModifiedMotor_Final.ino - current arduino code that reads list and moves stepper motors accordingly
-3) FriendSuggestion.ino - Showed friend my problem and he made some changes. STILL NEED TO TEST
+1) Python_To_Arduino.py - Python code that contains communication with Arduino and list of movements
+2) ModifiedMotor_Final.ino - Arduino code that reads list and moves stepper motors accordingly
 
 Background:
 
@@ -19,7 +17,7 @@ the direction string to call a motor function that goes straight, turns left or 
 and uses the number of steps value to move the stepper motors that many steps.
 
 Sequence of Steps:
-1) Communication of data from python ["<Direction, Number of Steps>"] to Arduino
+1) Communicate data from python ["<Direction, Number of Steps>"] to Arduino
 2) Talk to Python kernel so that I can see what data it is receiving
 3) Run motor code based on direction and number of steps
 
